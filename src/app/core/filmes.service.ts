@@ -26,4 +26,8 @@ export class FilmesService {
 
     return this.http.get<Filme[]>(url, {params: params});
   }
+
+  visualizar(id: number): Observable<Filme> {
+    return this.http.get<Filme>(url + id);
+  }
 }

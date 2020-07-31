@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 import { debounceTime } from 'rxjs/operators';
 import { FilmesService } from 'src/app/core/filmes.service';
 import { Filme } from 'src/app/shared/models/filme';
@@ -12,6 +13,7 @@ import { ConfigParams } from 'src/app/shared/models/config-params';
 })
 export class ListagemFilmesComponent implements OnInit {
 
+  readonly semFoto = 'https://www.buritama.sp.leg.br/imagens/parlamentares-2013-2016/sem-foto.jpg';
   config = {
     limite: 8,
     pagina: 1,
@@ -19,11 +21,11 @@ export class ListagemFilmesComponent implements OnInit {
   filmes: Filme[] = [];
   filtrosListagem: FormGroup;
   generos: Array<string>;
-  semFoto = 'https://www.buritama.sp.leg.br/imagens/parlamentares-2013-2016/sem-foto.jpg';
 
   constructor(
       private filmesService: FilmesService,
       private fb: FormBuilder,
+      private router: Router
     ) { }
 
   ngOnInit(): void {
@@ -54,7 +56,8 @@ export class ListagemFilmesComponent implements OnInit {
     this.listarFilmes();
   }
 
-  open() {
+  open(id: number) {
+    this.router.navigateByUrl(`/filmes/${id}`);
   }
 
   onScroll(): void {
