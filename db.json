@@ -111,114 +111,14 @@
       "id": 11
     },
     {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-23T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 12
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-23T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Aventura",
-      "id": 13
-    },
-    {
-      "titulo": "adasd",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-22T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 14
-    },
-    {
-      "titulo": "teste 3",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-30T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Ficção Científica",
-      "id": 15
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-27T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Aventura",
+      "titulo": "Novo FIlme",
+      "urlFoto": "http://inspirationbox.com.br/wp-content/uploads/2015/03/eragon-eragon-175445_1280_1024-700x560.jpg",
+      "dtLancamento": "2020-08-04T03:00:00.000Z",
+      "descricao": "Eragon é um grande exemplo, o filme lançado em 2006, não obteve o aval para a sequência, mesmo o filme tendo arrecadado, 305 milhões com um gasto de produção de 12 milhões.",
+      "nota": 8,
+      "urlIMDb": null,
+      "genero": "Drama",
       "id": 16
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-27T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 17
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-27T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 18
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-27T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 19
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-27T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 20
-    },
-    {
-      "titulo": "teste333",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-28T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Ficção Científica",
-      "id": 21
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-07-01T03:00:00.000Z",
-      "descricao": "TEST1\nTEST2\nTEST3\nTEST4\nTEST5\nTEST6",
-      "nota": 2.9,
-      "urlIMDb": "",
-      "genero": "Romance",
-      "id": 22
     }
   ]
 }

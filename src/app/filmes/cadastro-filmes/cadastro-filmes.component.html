@@ -5,11 +5,11 @@
       <mat-card-content>
           <dio-input-text titulo="Título *" controlName="titulo" [formGroup]="cadastro"></dio-input-text>
           <dio-input-text titulo="Link Foto" controlName="urlFoto" [formGroup]="cadastro"></dio-input-text>
-          <dio-input-date titulo="Data de Lançamento" controlName="dtLancamento" [formGroup]="cadastro"></dio-input-date>
+          <dio-input-date titulo="Data de Lançamento *" controlName="dtLancamento" [formGroup]="cadastro"></dio-input-date>
           <dio-input-textarea titulo="Descrição" controlName="descricao" [formGroup]="cadastro"></dio-input-textarea>
-          <dio-input-number step="0.1" titulo="Nota IMDb" controlName="nota" [formGroup]="cadastro"></dio-input-number>
+          <dio-input-number step="0.1" titulo="Nota IMDb *" controlName="nota" [formGroup]="cadastro"></dio-input-number>
           <dio-input-text titulo="Link IMDb" controlName="urlIMDb" [formGroup]="cadastro"></dio-input-text>
-          <dio-input-select [opcoes]="generos" titulo="Gênero" controlName="genero" [formGroup]="cadastro"></dio-input-select>
+          <dio-input-select [opcoes]="generos" titulo="Gênero *" controlName="genero" [formGroup]="cadastro"></dio-input-select>
       </mat-card-content>
       <mat-card-actions>
           <button type="submit" color="accent" mat-raised-button>Salvar</button>
